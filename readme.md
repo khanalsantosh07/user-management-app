@@ -4,6 +4,30 @@
 
 This is a Full Stack JavaScript User Management Application developed as part of the FSJS Final Project Fall 2024. The application demonstrates a complete CRUD (Create, Read, Update, Delete) system using the MERN stack (MongoDB, Express, React, Node.js).
 
+![Screenshot 2024-12-01 at 10.39.01 PM.png](screenshots/Screenshot%202024-12-01%20at%2010.39.01%20PM.png)
+
+![Screenshot 2024-12-01 at 10.39.33 PM.png](screenshots/Screenshot%202024-12-01%20at%2010.39.33%20PM.png)
+
+![Screenshot 2024-12-01 at 10.53.50 PM.png](screenshots/Screenshot%202024-12-01%20at%2010.53.50%20PM.png)
+
+![Screenshot 2024-12-01 at 10.54.25 PM.png](screenshots/Screenshot%202024-12-01%20at%2010.54.25%20PM.png)
+
+![Screenshot 2024-12-01 at 10.54.50 PM.png](screenshots/Screenshot%202024-12-01%20at%2010.54.50%20PM.png)
+
+![Screenshot 2024-12-01 at 10.55.29 PM.png](screenshots/Screenshot%202024-12-01%20at%2010.55.29%20PM.png)
+
+![Screenshot 2024-12-01 at 10.55.40 PM.png](screenshots/Screenshot%202024-12-01%20at%2010.55.40%20PM.png)
+
+![Screenshot 2024-12-01 at 10.55.48 PM.png](screenshots/Screenshot%202024-12-01%20at%2010.55.48%20PM.png)
+
+![Screenshot 2024-12-01 at 10.58.05 PM.png](screenshots/Screenshot%202024-12-01%20at%2010.58.05%20PM.png)
+
+![Screenshot 2024-12-01 at 10.58.25 PM.png](screenshots/Screenshot%202024-12-01%20at%2010.58.25%20PM.png)
+
+![Screenshot 2024-12-01 at 10.59.43 PM.png](screenshots/Screenshot%202024-12-01%20at%2010.59.43%20PM.png)
+
+![Screenshot 2024-12-01 at 11.01.56 PM.png](screenshots/Screenshot%202024-12-01%20at%2011.01.56%20PM.png)
+
 ## Table of Contents
 
 - [Features](#features)
