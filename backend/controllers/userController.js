@@ -3,6 +3,33 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { faker } = require('@faker-js/faker');
 
+exports.searchUsers = async (req, res) => {
+  try {
+    const { query } = req.query;
+    
+    // Create a search regex that is case-insensitive
+    const searchRegex = new RegExp(query, 'i');
+
+    // Search across multiple fields
+    const users = await User.find({
+      $or: [
+        { firstName: searchRegex },
+        { lastName: searchRegex },
+        { email: searchRegex },
+        { phoneNumber: searchRegex },
+        { city: searchRegex }
+      ]
+    }).select('-password');
+
+    res.json(users);
+  } catch (error) {
+    res.status(500).json({ 
+      message: 'Error searching users', 
+      error: error.message 
+    });
+  }
+};
+
 exports.registerUser = async (req, res) => {
   try {
     const { email, password, ...userData } = req.body;

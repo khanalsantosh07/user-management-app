@@ -51,7 +51,7 @@ Create a `.env` file in the backend directory:
 
 ```
 PORT=5000
-MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.pygq1.mongodb.net/userDatabase?retryWrites=true&w=majority&appName=Cluster0
+MONGODB_URI=mongodb+srv://connectsantoshkhanal:EEtlrYHj9yE6vTie@cluster0.pygq1.mongodb.net/userDatabase?retryWrites=true&w=majority&appName=Cluster0
 JWT_SECRET=your_jwt_secret_here
 REACT_APP_API_URL=http://localhost:5000/api
 ```
@@ -74,15 +74,16 @@ user-management-app/
 │   ├── models/       # Data models
 │   ├── routes/       # API routes
 │   ├── middleware/   # Authentication middleware
-│   └── server.js     # Express server
+│   └── server.js/    # Express server
 │
 └── frontend/
     ├── public/
     └── src/
         ├── components/
         ├── pages/
-        ├── services/
-        └── App.js
+        ├── index.js/
+        └── App.js/
+        └── App.Test.js/
 ```
 
 ## Running the Application
@@ -114,7 +115,7 @@ npm start
 
 ### Login
 
-- Use one of the populated user emails
+- Use one of the populated user emails for example : Reuben58@yahoo.com
 - Password: `defaultPassword123`
 - Or register a new user through the application
 
@@ -149,14 +150,10 @@ npm start
   - AG Grid
   - W3.CSS
 
-## Contributors
+## Author:
 
 ```
 Santosh Khanal
 Course: CSD-3102 Full Stack JavaScript
 Date: Fall 2024
 ```
-
-## License
-
-MIT
